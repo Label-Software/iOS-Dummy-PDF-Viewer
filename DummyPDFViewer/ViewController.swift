@@ -3,7 +3,7 @@ import PDFKit
 
 class ViewController: UIViewController {
     
-    let fileUrl: URL? = Bundle.main.url(forResource: "Dummy", withExtension: "rtf")
+    let fileUrl: URL? = Bundle.main.url(forResource: "Dummy", withExtension: "docx")
 
     override func viewDidLoad() {
         super.viewDidLoad()

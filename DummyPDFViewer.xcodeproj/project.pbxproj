@@ -17,6 +17,8 @@
 		D324E843216817EE00D5886D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D324E842216817EE00D5886D /* Assets.xcassets */; };
 		D324E846216817EE00D5886D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D324E844216817EE00D5886D /* LaunchScreen.storyboard */; };
 		D324E84E2168182100D5886D /* Dummy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D324E84D2168182100D5886D /* Dummy.pdf */; };
+		EE101FA127C6714A00372A28 /* Dummy.doc in Resources */ = {isa = PBXBuildFile; fileRef = EE101F9F27C670EE00372A28 /* Dummy.doc */; };
+		EE101FA227C6714D00372A28 /* Dummy.docx in Resources */ = {isa = PBXBuildFile; fileRef = EE101FA027C670EE00372A28 /* Dummy.docx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		D324E845216817EE00D5886D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D324E847216817EE00D5886D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D324E84D2168182100D5886D /* Dummy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Dummy.pdf; sourceTree = "<group>"; };
+		EE101F9F27C670EE00372A28 /* Dummy.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dummy.doc; sourceTree = "<group>"; };
+		EE101FA027C670EE00372A28 /* Dummy.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dummy.docx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				BDCDB9A227BAB32D00DDF32A /* Dummy.odt */,
 				BDCDB9A527BAB32E00DDF32A /* Dummy.ppt */,
 				BDCDB9A327BAB32D00DDF32A /* Dummy.rtf */,
+				EE101F9F27C670EE00372A28 /* Dummy.doc */,
+				EE101FA027C670EE00372A28 /* Dummy.docx */,
 			);
 			path = DummyPDFViewer;
 			sourceTree = "<group>";
@@ -137,11 +143,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE101FA227C6714D00372A28 /* Dummy.docx in Resources */,
 				D324E846216817EE00D5886D /* LaunchScreen.storyboard in Resources */,
 				D324E84E2168182100D5886D /* Dummy.pdf in Resources */,
 				D324E843216817EE00D5886D /* Assets.xcassets in Resources */,
 				BDCDB9A827BAB32E00DDF32A /* Dummy.csv in Resources */,
 				D324E841216817ED00D5886D /* Main.storyboard in Resources */,
+				EE101FA127C6714A00372A28 /* Dummy.doc in Resources */,
 				BDCDB9A627BAB32E00DDF32A /* Dummy.odt in Resources */,
 				BDCDB9A727BAB32E00DDF32A /* Dummy.rtf in Resources */,
 				BDCDB9A927BAB32E00DDF32A /* Dummy.ppt in Resources */,
