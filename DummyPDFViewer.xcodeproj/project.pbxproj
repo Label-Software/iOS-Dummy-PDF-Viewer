@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDCDB9A627BAB32E00DDF32A /* Dummy.odt in Resources */ = {isa = PBXBuildFile; fileRef = BDCDB9A227BAB32D00DDF32A /* Dummy.odt */; };
+		BDCDB9A727BAB32E00DDF32A /* Dummy.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BDCDB9A327BAB32D00DDF32A /* Dummy.rtf */; };
+		BDCDB9A827BAB32E00DDF32A /* Dummy.csv in Resources */ = {isa = PBXBuildFile; fileRef = BDCDB9A427BAB32D00DDF32A /* Dummy.csv */; };
+		BDCDB9A927BAB32E00DDF32A /* Dummy.ppt in Resources */ = {isa = PBXBuildFile; fileRef = BDCDB9A527BAB32E00DDF32A /* Dummy.ppt */; };
 		D324E83C216817ED00D5886D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324E83B216817ED00D5886D /* AppDelegate.swift */; };
 		D324E83E216817ED00D5886D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324E83D216817ED00D5886D /* ViewController.swift */; };
 		D324E841216817ED00D5886D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D324E83F216817ED00D5886D /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDCDB9A227BAB32D00DDF32A /* Dummy.odt */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dummy.odt; sourceTree = "<group>"; };
+		BDCDB9A327BAB32D00DDF32A /* Dummy.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Dummy.rtf; sourceTree = "<group>"; };
+		BDCDB9A427BAB32D00DDF32A /* Dummy.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dummy.csv; sourceTree = "<group>"; };
+		BDCDB9A527BAB32E00DDF32A /* Dummy.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dummy.ppt; sourceTree = "<group>"; };
 		D324E838216817ED00D5886D /* Dummy PDF Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dummy PDF Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D324E83B216817ED00D5886D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D324E83D216817ED00D5886D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				D324E844216817EE00D5886D /* LaunchScreen.storyboard */,
 				D324E847216817EE00D5886D /* Info.plist */,
 				D324E84D2168182100D5886D /* Dummy.pdf */,
+				BDCDB9A427BAB32D00DDF32A /* Dummy.csv */,
+				BDCDB9A227BAB32D00DDF32A /* Dummy.odt */,
+				BDCDB9A527BAB32E00DDF32A /* Dummy.ppt */,
+				BDCDB9A327BAB32D00DDF32A /* Dummy.rtf */,
 			);
 			path = DummyPDFViewer;
 			sourceTree = "<group>";
@@ -128,7 +140,11 @@
 				D324E846216817EE00D5886D /* LaunchScreen.storyboard in Resources */,
 				D324E84E2168182100D5886D /* Dummy.pdf in Resources */,
 				D324E843216817EE00D5886D /* Assets.xcassets in Resources */,
+				BDCDB9A827BAB32E00DDF32A /* Dummy.csv in Resources */,
 				D324E841216817ED00D5886D /* Main.storyboard in Resources */,
+				BDCDB9A627BAB32E00DDF32A /* Dummy.odt in Resources */,
+				BDCDB9A727BAB32E00DDF32A /* Dummy.rtf in Resources */,
+				BDCDB9A927BAB32E00DDF32A /* Dummy.ppt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

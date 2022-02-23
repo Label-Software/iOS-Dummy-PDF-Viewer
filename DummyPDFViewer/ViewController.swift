@@ -2,6 +2,8 @@ import UIKit
 import PDFKit
 
 class ViewController: UIViewController {
+    
+    let fileUrl: URL? = Bundle.main.url(forResource: "Dummy", withExtension: "rtf")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -13,15 +15,13 @@ class ViewController: UIViewController {
         self.view.addSubview(pdfView)
         
         pdfView.autoScales = true
-        
-        let fileURL = Bundle.main.url(forResource: "Dummy", withExtension: "pdf")
-        pdfView.document = PDFDocument(url: fileURL!)
+        if let documentUrl = fileUrl {
+            pdfView.document = PDFDocument(url: documentUrl)
+        }
     }
     
     @IBAction func ShareButtonTapped(_ sender: Any) {
-        let fileURL = Bundle.main.url(forResource: "Dummy", withExtension: "pdf")
-        let activityViewController = UIActivityViewController(activityItems: [fileURL!], applicationActivities: nil)
+        let activityViewController = UIActivityViewController(activityItems: [fileUrl!], applicationActivities: nil)
         self.present(activityViewController, animated: true, completion: nil)
     }
-    
 }
